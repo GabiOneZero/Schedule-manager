@@ -1,0 +1,26 @@
+*Casos de uso. Editar huecos de horarios*
+
+- Si la hora está vacía:
+	- select con todos los grupos
+	- select con las aulas (libre y no libre).
+	- Si se escoge una guardia:
+		* select de aula desactivada	
+	- Si seleccionas grupo y aula, se añade:
+		* Si el aula no está libre, un modal (cancelar o cambiar) -> Una nueva ventana, otro modal con un select solo con las aulas libres (cancelar o añadir). para añadir un update para el profesor que estaba y luego insert.
+		
+	
+- Si la hora tiene una guardia: *
+	- no se puede añadir, solo quitar *
+
+- Si la hora no está vacía:
+	- select con todos los grupos que no esté ya listado en esa hora, excepto guardias*
+	- select solo con el aula que le corresponde*
+	- entonces se añade sin problema*
+	
+******************************************************************************************
+******************************************************************************************
+
++ Mensaje de añadido con éxito (como refresca, desaparece al momento)
++ Mensaje error
++ Añadir alerts al borrar registros en la BD
+	

@@ -1,0 +1,50 @@
+.oculta{
+    display:none
+}
+
+.visible{
+    display:block
+}
+
+.enlace{
+    border:none;background:none;text-decoration:underline;color:blue;cursor: pointer;
+}
+
+table,td,th{
+    border:1px solid black
+}
+
+table{
+    border-collapse:collapse;
+    width: 100%;
+}
+
+th{
+    background-color: #CCC;
+}
+
+.centrar{
+    text-align:center;
+}
+
+.no_styles_table{
+    text-align: left;    
+    border: none;
+    width: auto;
+}
+
+.no_styles_table td{
+    border: none;
+}
+
+.responsive_table{
+    overflow-x: auto;
+    width: 80%;
+    margin: auto;
+}
+.form_anadir{
+    display: inline;
+}
+#select_grupo_table{
+    width: 50%;
+}
